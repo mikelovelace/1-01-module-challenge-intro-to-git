@@ -27,10 +27,20 @@ Now that you are all set up, it's time to learn a little more about the tools of
     I.E. Broken Code
 
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main.\
-    git checkout branch-name
+    git switch branch-name
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?\
+    git fetch is used to bring down all new branches and changes from the remote repository should any exist.
+    git merge is used to bring down all the latest changes and apply them to your current branch.
+    git pull is fetch and merge combined. It brings down any new branches created and their changes and 
+    automatically merges them with your current branch.
 
 7. What is a merge conflict?\
+    A merge conflict is when a file contains multiple changes made by different developers.
 
 8. How do you resolve a merge conflict?\
+    You can resolve a merge conflict by accepting the current changes, or accepting incoming changes,
+    or by comparing the changes. It is up to the developer which option is best.
+    Once done, you can use git add file-name and then commit to resolve the conflict.
+    Alternativly, one could use git merge --abort to get rid of all conflciting changes.
+
