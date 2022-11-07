@@ -36,7 +36,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
     automatically merges them with your current branch.
 
 7. <h2>What is a merge conflict?</h2>
-    A merge conflict is when a file contains multiple changes made by different developers.
+    A merge conflict is when a file contains changes to the same line of code made by different developers.
 
 8. <h2>How do you resolve a merge conflict?</h2>
     You can resolve a merge conflict by accepting the current changes, or accepting incoming changes,
